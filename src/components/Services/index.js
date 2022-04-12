@@ -18,7 +18,7 @@ const Services = () => {
             <ServicesCard>
                 <ServicesIcon src={Icon1}/>
                 <ServicesH2>Survey</ServicesH2>
-                <ServicesP>Our Survey is powered by a dynamic algorithm that will find the best card for you and your lifestyle and spending.</ServicesP>
+                <ServicesP>Our Survey is powered by a dynamic algorithm that will find the best card for you and your lifestyle/spending habits.</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon2}/>

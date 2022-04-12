@@ -1,6 +1,13 @@
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 
+export const FooterLinkWrapper = styled.div`
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+`;
+
 export const FooterContainer = styled.footer`
     background-color: #101522;
 `;
@@ -35,9 +42,9 @@ export const FooterLinksWrapper = styled.div`
 export const FooterLinkItems = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin: 16px;
-    text-align: left;
+    text-align: center;
     width: 160px;
     box-sizing: border-box;
     color: #fff;
@@ -52,6 +59,7 @@ export const FooterLinkItems = styled.div`
 export const FooterLinkTitle = styled.h1`
     font-size: 14px;
     margin-bottom: 16px;
+    padding-left: 8px;
 `;
 
 export const FooterLink = styled(Link)`
@@ -59,6 +67,7 @@ export const FooterLink = styled(Link)`
     text-decoration: none;
     margin-bottom: 0.5rem;
     font-size: 14px;
+    padding: 0px 5px 0px 5px;
     
 
     &:hover {

@@ -2,6 +2,34 @@ import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
 import {Link as LinkS} from 'react-scroll';
 
+
+export const NavBtnLink = styled(LinkR)`
+    border-radius: 50px;
+    background: ${({secondary}) => (secondary ? 'transparent' : '#E8A838')};
+    white-space: nowrap;
+    padding: 10px 22px;
+    color: #010606;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #010606;
+    }
+`;
+
+export const NavBtn = styled.nav`
+    display: flex;
+    align-items: center;
+
+    
+`;
+
 export const InfoContainer = styled.div`
     color: #fff;
     background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
@@ -75,7 +103,7 @@ export const Column1 = styled.div`
 `;
 
 export const Column2 = styled.div`
-    margin-buttom: 15px;
+    margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
 `;
@@ -110,7 +138,7 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
     max-width: 440px;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
     font-size: 18px;
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
@@ -130,6 +158,11 @@ export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
+
+    @media screen and (max-width: 480px) {
+        margin-top: -300px;
+    }
+    
 `;
 
 export const btnShow = styled.div`

@@ -11,8 +11,10 @@ import {
     NavItem, 
     NavLinks,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
+    Img
 } from './NavbarElements';
+import logo from '../../images/creditcommander.png';
 
 const Navbar = ({toggle}) => {
     const [scrollNav, setScrollNav] = useState(false);
@@ -34,12 +36,14 @@ const Navbar = ({toggle}) => {
     }
 
   return (
+        // <Img src={logo} alt='icon' />
+
     <>
     <IconContext.Provider value={{color: '#E8A838'}}>
          <Nav scrollNav={scrollNav}>
              <NavbarContainer>
                  <NavLogo to="/" onClick={toggleHome}>
-                     Credit Commander
+                  Credit Commander 
                  </NavLogo>
                  <MobileIcon onClick={toggle}>
                      <FaBars />

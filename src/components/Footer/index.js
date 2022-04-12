@@ -13,7 +13,8 @@ import { FooterContainer,
     SocialLogo,
     WebsiteRights,
     SocialIcons,
-    SocialIconLink } 
+    SocialIconLink,
+    FooterLinkWrapper } 
     from './FooterElements';
 
 const Footer = () => {
@@ -27,10 +28,11 @@ const Footer = () => {
                 <FooterLinksWrapper>
                     <FooterLinkItems>
                         <FooterLinkTitle>Dominic Olszewski</FooterLinkTitle>
-                            <FooterLink to='//www.linkedin.com' target="_blank"><SocialIconLink href="//www.linkedin.com" target="_blank"
+                            <FooterLinkWrapper>
+                            {/* <FooterLink to='//www.linkedin.com' target="_blank"><SocialIconLink href="//www.linkedin.com" target="_blank"
                         aria-label="Linkedin">
                             <FaLinkedin />
-                        </SocialIconLink></FooterLink>
+                        </SocialIconLink></FooterLink> */}
                             <FooterLink to='mailto:dolszewski3461@conestogac.on.ca' target="_blank"><SocialIconLink href='mailto:dolszewski3461@conestogac.on.ca' target="_blank"
                         aria-label="Email">
                             <FaEnvelope />
@@ -39,9 +41,11 @@ const Footer = () => {
                         aria-label="Email">
                             <FaGithub />
                         </SocialIconLink></FooterLink>
+                        </FooterLinkWrapper>
                     </FooterLinkItems>
                     <FooterLinkItems>
                         <FooterLinkTitle>Connor Adams</FooterLinkTitle>
+                        <FooterLinkWrapper>
                             <FooterLink to='//www.linkedin.com/in/connor-adams-53785019' target="_blank"><SocialIconLink href="//www.linkedin.com/in/connor-adams-53785019" target="_blank"
                         aria-label="Linkedin">
                             <FaLinkedin />
@@ -54,36 +58,41 @@ const Footer = () => {
                         aria-label="Email">
                             <FaGithub />
                         </SocialIconLink></FooterLink>
+                        </FooterLinkWrapper>
                     </FooterLinkItems>
                     <FooterLinkItems>
                         <FooterLinkTitle>Dennis Pandea</FooterLinkTitle>
-                            <FooterLink to='//www.linkedin.com' target="_blank"><SocialIconLink href="//www.linkedin.com" target="_blank"
+                            <FooterLinkWrapper>
+                            {/* <FooterLink to='//www.linkedin.com' target="_blank"><SocialIconLink href="//www.linkedin.com" target="_blank"
                         aria-label="Linkedin">
                             <FaLinkedin />
-                        </SocialIconLink></FooterLink>
+                        </SocialIconLink></FooterLink> */}
                             <FooterLink to='mailto:dpandea1111@conestogac.on.ca' target="_blank"><SocialIconLink href='mailto:dpandea1111@conestogac.on.ca' target="_blank"
                         aria-label="Email">
                             <FaEnvelope />
                         </SocialIconLink></FooterLink>
-                            <FooterLink to='//google.com' target="_blank"><SocialIconLink href="//www.linkedin.com" target="_blank"
+                            <FooterLink to='//github.com/Dennispandea' target="_blank"><SocialIconLink href="//github.com/Dennispandea" target="_blank"
                         aria-label="Email">
                             <FaGithub />
                         </SocialIconLink></FooterLink>
+                        </FooterLinkWrapper>
                     </FooterLinkItems>
                     <FooterLinkItems>
                         <FooterLinkTitle>Jackson Wiese</FooterLinkTitle>
-                            <FooterLink to='//www.linkedin.com' target="_blank"><SocialIconLink href="//www.linkedin.com" target="_blank"
+                        <FooterLinkWrapper>
+                            {/* <FooterLink to='//www.linkedin.com' target="_blank"><SocialIconLink href="//www.linkedin.com" target="_blank"
                         aria-label="Linkedin">
                             <FaLinkedin />
-                        </SocialIconLink></FooterLink>
+                        </SocialIconLink></FooterLink> */}
                             <FooterLink to='mailto:jwiese5363@conestogac.on.ca' target="_blank"><SocialIconLink href='mailto:jwiese5363@conestogac.on.ca' target="_blank"
                         aria-label="Email">
                             <FaEnvelope />
                         </SocialIconLink></FooterLink>
-                            <FooterLink to='//google.com' target="_blank"><SocialIconLink href="//www.linkedin.com" target="_blank"
+                            <FooterLink to='//github.com/jwiese5363' target="_blank"><SocialIconLink href="//github.com/jwiese5363" target="_blank"
                         aria-label="Email">
                             <FaGithub />
                         </SocialIconLink></FooterLink>
+                        </FooterLinkWrapper>
                     </FooterLinkItems>
                 </FooterLinksWrapper>
             </FooterLinksContainer>
