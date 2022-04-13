@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
@@ -13,6 +13,9 @@ const Home = () => {
     const toggle = () => {
         setIsOpen(!isOpen)
     };
+    useEffect(() => {
+        document.title = "Credit Commander"
+    }, []);
 
 
   return (
