@@ -160,7 +160,7 @@ export const Img = styled.img`
     padding-right: 0;
 
     @media screen and (max-width: 480px) {
-        margin-top: -300px;
+        margin-top: -200px;
     }
     
 `;
