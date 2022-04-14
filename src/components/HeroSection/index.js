@@ -29,7 +29,7 @@ const HeroSection = () => {
                 Click the download button to download our APK and install it on your phone.
             </HeroP>
             <HeroBtnWrapper>
-                <Button to="discover" 
+                <Button to="discover"
                 onMouseEnter={onHover} 
                 onMouseLeave={onHover}
                 primary='true'
