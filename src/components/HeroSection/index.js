@@ -26,7 +26,7 @@ const HeroSection = () => {
         <HeroContent>
             <HeroH1>Picking a Credit Card Made Easy</HeroH1>
             <HeroP>
-                Click the download button to download our APK and install it on your phone.
+                Click the download button to download our app from the Amazon AppStore.
             </HeroP>
             <HeroBtnWrapper>
                 <Button to="discover"
