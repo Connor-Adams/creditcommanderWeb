@@ -41,6 +41,10 @@ export const NavLogo = styled(LinkR)`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+
+    @media screen and (max-width: 600px) {
+        font-size: 1.2rem;
+    }
 `;
 
 export const Img = styled.img`

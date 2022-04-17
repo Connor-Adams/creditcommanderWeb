@@ -29,10 +29,10 @@ const Footer = () => {
                     <FooterLinkItems>
                         <FooterLinkTitle>Dominic Olszewski</FooterLinkTitle>
                             <FooterLinkWrapper>
-                            {/* <FooterLink to='//www.linkedin.com' target="_blank"><SocialIconLink href="//www.linkedin.com" target="_blank"
+                            <FooterLink to='//www.linkedin.com/in/dominic-olszewski-432b83237/' target="_blank"><SocialIconLink href="//www.linkedin.com/in/dominic-olszewski-432b83237/" target="_blank"
                         aria-label="Linkedin">
                             <FaLinkedin />
-                        </SocialIconLink></FooterLink> */}
+                        </SocialIconLink></FooterLink>
                             <FooterLink to='mailto:dolszewski3461@conestogac.on.ca' target="_blank"><SocialIconLink href='mailto:dolszewski3461@conestogac.on.ca' target="_blank"
                         aria-label="Email">
                             <FaEnvelope />
